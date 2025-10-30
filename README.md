@@ -1,10 +1,8 @@
 # 🚀 Talent Match Intelligence System
 
-Ini adalah aplikasi Streamlit yang dibuat sebagai solusi untuk studi kasus "Data Analyst 2025 - Success Pattern Discovery".
-
 ## 🎯 Deskripsi Proyek
 
-Tujuan proyek ini adalah untuk membangun sistem "Talent Match Intelligence" yang interaktif. [cite_start]Sistem ini membantu para pemimpin bisnis untuk[cite: 4]:
+Tujuan proyek ini adalah untuk membangun sistem "Talent Match Intelligence" yang interaktif. Sistem ini membantu para pemimpin bisnis untuk:
 1.  **Menemukan Pola Sukses:** Mengidentifikasi "DNA" atau karakteristik kunci dari karyawan berkinerja terbaik (High Performer).
 2.  **Mencari Kandidat Serupa:** Menemukan talenta internal lain yang memiliki profil serupa untuk kebutuhan suksesi atau promosi.
 
@@ -12,13 +10,13 @@ Aplikasi ini mengubah analisis data mentah (Task 1) dan logika SQL yang kompleks
 
 ## ✨ Fitur Utama
 
-* [cite_start]**AI-Generated Job Profiles:** Secara dinamis menghasilkan deskripsi pekerjaan, persyaratan, dan kompetensi kunci menggunakan AI (LLM via OpenRouter) berdasarkan input peran dari manajer [cite: 121-122].
+* **AI-Generated Job Profiles:** Secara dinamis menghasilkan deskripsi pekerjaan, persyaratan, dan kompetensi kunci menggunakan AI (LLM via OpenRouter) berdasarkan input peran dari manajer.
 * **Dynamic Talent Matching:** Menjalankan query SQL *real-time* (lebih dari 300 baris) yang membandingkan semua karyawan dengan 1-3 karyawan *benchmark* yang dipilih.
-* [cite_start]**Interactive Dashboard [cite: 128-133]:**
-    * [cite_start]**Ranked Talent List:** Menampilkan daftar karyawan yang paling cocok, diurutkan berdasarkan `final_match_rate`[cite: 127].
-    * [cite_start]**Match-Rate Distribution:** Histogram yang menunjukkan distribusi skor kecocokan di seluruh perusahaan[cite: 130].
-    * [cite_start]**Benchmark vs. Candidate:** Radar chart untuk membandingkan skor TGV (Talent Group Variable) antara kandidat terpilih dan *benchmark*[cite: 132].
-    * [cite_start]**Strengths & Gaps:** Bar chart yang merinci skor per TV (Talent Variable), menyoroti kekuatan dan kesenjangan kandidat[cite: 131].
+* **Interactive Dashboard :**
+    * **Ranked Talent List:** Menampilkan daftar karyawan yang paling cocok, diurutkan berdasarkan `final_match_rate`.
+    * **Match-Rate Distribution:** Histogram yang menunjukkan distribusi skor kecocokan di seluruh perusahaan.
+    * **Benchmark vs. Candidate:** Radar chart untuk membandingkan skor TGV (Talent Group Variable) antara kandidat terpilih dan *benchmark*.
+    * **Strengths & Gaps:** Bar chart yang merinci skor per TV (Talent Variable), menyoroti kekuatan dan kesenjangan kandidat.
 
 ## 🛠️ Teknologi yang Digunakan
 
